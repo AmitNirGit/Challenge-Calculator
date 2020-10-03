@@ -9,6 +9,15 @@ how to start?
 2. run <b> npm i </b> on your terminal
 3. start coding!
 
+# Instructions
+
+you will recive a template with 3 components. each one of them should get props that should help you solve the challenge.
+the expected props are:
+
+- DigitButton - value {0-9, ., =} | onClick {function}
+- MathOperation - value {/, \*, -, +, AC} | type {divide,multi,minus,plus,AC} | onClick {function}
+- OperationButton - value {(,),%} | type {leftParentheses,rightParentheses,modulo} | onClick {function}
+
 # Requirements:
 
 1. Calculator must have 20 buttons.
@@ -19,9 +28,9 @@ how to start?
 6. The calculator should return "error" when the user tries to divide by zero.
 7. The calculator should consider order of operations: </br>
    Good way 👍🏿: </br>
-   2+3*4 = 14 </br>
+   2 + 3 _ 4 = 14 </br>
    Bad way 👎🏿: </br>
-   2+3*4 = 20 </br>
+   2 + 3 _ 4 = 20 </br>
 8. The calculator should have the following functions: </br>
 
 - divide / (9/2 = 4.5)
@@ -30,7 +39,7 @@ how to start?
 - multiply * (9*2 = 18)
 - modulo % (9%2 = 1)
 
-# important!
+# Important!
 
 In order to make the tests run properly, do not change the id's of the components:
 
